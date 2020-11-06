@@ -4,7 +4,7 @@ export const ThemeContext = createContext()
 
 export class ThemeProvider extends Component {
   state = {
-    isDarkMode: true
+    isDarkMode: false,
   }
 
   render() {
